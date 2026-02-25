@@ -59,7 +59,7 @@
             "id": "stella",
             "icon": "💍",
             "name": "Stella",
-            "occupied": false
+            "occupied": true
           },
           {
             "id": "stolas",

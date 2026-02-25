@@ -466,4 +466,85 @@ body{
   .cards{ padding-bottom: 74px; } /* espacio para fabBar */
   .grid{ grid-template-columns: 1fr; }
   .field.inline{ grid-column: span 1; }
+
+}
+
+/* =========================
+   MOBILE: HAMBURGER + SIDEBAR CONTRAST FIX
+   ========================= */
+
+:root{
+  /* Ajusta si tu tema usa otros */
+  --hamb-bg: rgba(255,255,255,.92);
+  --hamb-bd: rgba(0,0,0,.10);
+  --hamb-fg: #111;
+  --hamb-shadow: 0 10px 30px rgba(0,0,0,.18);
+  --sidebar-bg: #0f1115;      /* fondo sidebar móvil */
+  --sidebar-fg: #f5f7ff;      /* texto sidebar móvil */
+  --sidebar-muted: rgba(245,247,255,.72);
+}
+
+/* Botón hamburguesa */
+#btnToggleSidebar{
+  -webkit-tap-highlight-color: transparent;
+  background: var(--hamb-bg);
+  border: 1px solid var(--hamb-bd);
+  color: var(--hamb-fg);
+  box-shadow: var(--hamb-shadow);
+  border-radius: 12px;
+}
+
+/* Si tu botón tiene un icono dentro (svg/span), forzamos color */
+#btnToggleSidebar svg,
+#btnToggleSidebar span,
+#btnToggleSidebar i{
+  color: var(--hamb-fg);
+  fill: currentColor;
+}
+
+/* Estados */
+#btnToggleSidebar:hover{
+  filter: brightness(0.98);
+}
+#btnToggleSidebar:active{
+  transform: scale(0.98);
+}
+#btnToggleSidebar:focus-visible{
+  outline: 2px solid rgba(255,255,255,.65);
+  outline-offset: 2px;
+}
+
+/* ====== Sidebar móvil ====== */
+@media (max-width: 900px){
+  /* Asegura contraste del panel */
+  #sidebar{
+    background: var(--sidebar-bg);
+    color: var(--sidebar-fg);
+    border-right: 1px solid rgba(255,255,255,.08);
+  }
+
+  #sidebar .navItem{
+    color: var(--sidebar-fg);
+    border: 1px solid rgba(255,255,255,.10);
+    background: rgba(255,255,255,.04);
+  }
+
+  #sidebar .navItem .navCount{
+    background: rgba(255,255,255,.10);
+    color: var(--sidebar-fg);
+  }
+
+  #sidebar .navItem:hover{
+    background: rgba(255,255,255,.08);
+  }
+
+  #sidebar .navItem.active{
+    background: rgba(255,255,255,.14);
+    border-color: rgba(255,255,255,.20);
+  }
+
+  /* Si tienes textos “muted” */
+  #sidebar .muted, #sidebar small, #sidebar .hint{
+    color: var(--sidebar-muted);
+  }
 }

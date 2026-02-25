@@ -1,1 +1,962 @@
-[]
+[
+  {
+    "id": "helluva",
+    "title": "Helluva Boss",
+    "subgroups": [
+      {
+        "id": "pecados",
+        "title": "Pecados Capitales",
+        "items": [
+          {
+            "id": "beelzebub",
+            "icon": "🐝",
+            "name": "Beelzebub",
+            "occupied": false
+          },
+          {
+            "id": "belphegor",
+            "icon": "🛌",
+            "name": "Belphegor",
+            "occupied": false
+          },
+          {
+            "id": "leviathan",
+            "icon": "🌊",
+            "name": "Leviathan",
+            "occupied": false
+          },
+          {
+            "id": "satan",
+            "icon": "🔥",
+            "name": "Satán",
+            "occupied": true
+          },
+          {
+            "id": "mammon",
+            "icon": "💰",
+            "name": "Mammon",
+            "occupied": true
+          },
+          {
+            "id": "asmodeus",
+            "icon": "🔥",
+            "name": "Asmodeus",
+            "occupied": false
+          }
+        ]
+      },
+      {
+        "id": "realeza",
+        "title": "Alta Realeza",
+        "items": [
+          {
+            "id": "andrealphus",
+            "icon": "🦢",
+            "name": "Andrealphus",
+            "occupied": false
+          },
+          {
+            "id": "stella",
+            "icon": "💍",
+            "name": "Stella",
+            "occupied": true
+          },
+          {
+            "id": "stolas",
+            "icon": "📖",
+            "name": "Stolas",
+            "occupied": true
+          },
+          {
+            "id": "octavia",
+            "icon": "🎧",
+            "name": "Octavia",
+            "occupied": true
+          },
+          {
+            "id": "paimon",
+            "icon": "👑",
+            "name": "Paimon Goetia",
+            "occupied": true
+          },
+          {
+            "id": "vassago",
+            "icon": "🌟",
+            "name": "Vassago",
+            "occupied": true
+          }
+        ]
+      },
+      {
+        "id": "querubines",
+        "title": "Querubines",
+        "items": [
+          {
+            "id": "cletus",
+            "icon": "👼",
+            "name": "Cletus",
+            "occupied": false
+          },
+          {
+            "id": "collin",
+            "icon": "🐑",
+            "name": "Collin",
+            "occupied": false
+          },
+          {
+            "id": "keenie",
+            "icon": "☁️",
+            "name": "Keenie",
+            "occupied": false
+          },
+          {
+            "id": "deerie",
+            "icon": "🦌",
+            "name": "Deerie",
+            "occupied": false
+          },
+          {
+            "id": "rachel",
+            "icon": "🌼",
+            "name": "Rachel",
+            "occupied": false
+          },
+          {
+            "id": "bea",
+            "icon": "🍯",
+            "name": "Bea",
+            "occupied": false
+          },
+          {
+            "id": "beau",
+            "icon": "🍯",
+            "name": "Beau",
+            "occupied": false
+          },
+          {
+            "id": "honey",
+            "icon": "🍯",
+            "name": "Honey",
+            "occupied": false
+          }
+        ]
+      },
+      {
+        "id": "imps",
+        "title": "Imps",
+        "items": [
+          {
+            "id": "blitzo",
+            "icon": "🔫",
+            "name": "Blitzo",
+            "occupied": true
+          },
+          {
+            "id": "tilla",
+            "icon": "🪦",
+            "name": "Tilla",
+            "occupied": false
+          },
+          {
+            "id": "barbie",
+            "icon": "💊",
+            "name": "Barbie Wire",
+            "occupied": false
+          },
+          {
+            "id": "cash",
+            "icon": "💵",
+            "name": "Cash Buckzo",
+            "occupied": false
+          },
+          {
+            "id": "moxxie",
+            "icon": "🎯",
+            "name": "Moxxie",
+            "occupied": false
+          },
+          {
+            "id": "millie",
+            "icon": "🪓",
+            "name": "Millie",
+            "occupied": true
+          },
+          {
+            "id": "crimson",
+            "icon": "🩸",
+            "name": "Crimson",
+            "occupied": false
+          },
+          {
+            "id": "lin",
+            "icon": "📎",
+            "name": "Lin",
+            "occupied": false
+          },
+          {
+            "id": "joe",
+            "icon": "☕",
+            "name": "Joe",
+            "occupied": false
+          },
+          {
+            "id": "sallie",
+            "icon": "🐍",
+            "name": "Sallie May",
+            "occupied": false
+          },
+          {
+            "id": "striker",
+            "icon": "🤠",
+            "name": "Striker",
+            "occupied": false
+          },
+          {
+            "id": "fizz",
+            "icon": "🎪",
+            "name": "Fizzarolli",
+            "occupied": true
+          },
+          {
+            "id": "fizzbot",
+            "icon": "🤖",
+            "name": "Fizzarolli Robot",
+            "occupied": true
+          },
+          {
+            "id": "wally",
+            "icon": "📣",
+            "name": "Wally Wackford",
+            "occupied": false
+          },
+          {
+            "id": "arick",
+            "icon": "🔥",
+            "name": "Arick Burnz",
+            "occupied": false
+          },
+          {
+            "id": "ember",
+            "icon": "🎀",
+            "name": "Emberlynn Pinkle",
+            "occupied": false
+          },
+          {
+            "id": "looloo",
+            "icon": "🎠",
+            "name": "Loo Loo",
+            "occupied": false
+          },
+          {
+            "id": "loopty",
+            "icon": "🎩",
+            "name": "Loopty Goopty",
+            "occupied": false
+          },
+          {
+            "id": "chaz",
+            "icon": "🦈",
+            "name": "Chazwick Thurman",
+            "occupied": false
+          },
+          {
+            "id": "glitz",
+            "icon": "✨",
+            "name": "Glitz",
+            "occupied": false
+          },
+          {
+            "id": "glam",
+            "icon": "✨",
+            "name": "Glam",
+            "occupied": false
+          },
+          {
+            "id": "martha",
+            "icon": "🐖",
+            "name": "Martha",
+            "occupied": false
+          },
+          {
+            "id": "mayberry",
+            "icon": "🍎",
+            "name": "Sra. Mayberry",
+            "occupied": false
+          }
+        ]
+      },
+      {
+        "id": "hellhounds",
+        "title": "Hellhounds",
+        "items": [
+          {
+            "id": "vikki",
+            "icon": "💄",
+            "name": "Vikki",
+            "occupied": false
+          },
+          {
+            "id": "sunshine",
+            "icon": "☀️",
+            "name": "Sunshine",
+            "occupied": false
+          },
+          {
+            "id": "ruffie",
+            "icon": "📱",
+            "name": "Ruffie",
+            "occupied": false
+          },
+          {
+            "id": "rufflete",
+            "icon": "🐾",
+            "name": "Rufflete",
+            "occupied": false
+          },
+          {
+            "id": "andrew",
+            "icon": "🐕",
+            "name": "Andrew",
+            "occupied": false
+          },
+          {
+            "id": "esme",
+            "icon": "🌸",
+            "name": "Esme",
+            "occupied": false
+          },
+          {
+            "id": "vortex",
+            "icon": "🐺",
+            "name": "Vortex",
+            "occupied": false
+          },
+          {
+            "id": "loona",
+            "icon": "🌙",
+            "name": "Loona",
+            "occupied": true
+          }
+        ]
+      },
+      {
+        "id": "humanos",
+        "title": "Humanos",
+        "items": [
+          {
+            "id": "ag1",
+            "icon": "🕶️",
+            "name": "Agente 1",
+            "occupied": false
+          },
+          {
+            "id": "ag2",
+            "icon": "🕶️",
+            "name": "Agente 2",
+            "occupied": false
+          },
+          {
+            "id": "jimmy",
+            "icon": "📋",
+            "name": "Consejero Jimmy",
+            "occupied": false
+          },
+          {
+            "id": "eddie",
+            "icon": "🍔",
+            "name": "Eddie",
+            "occupied": false
+          },
+          {
+            "id": "franklin",
+            "icon": "📞",
+            "name": "Franklin",
+            "occupied": false
+          },
+          {
+            "id": "paulie",
+            "icon": "🍝",
+            "name": "Paulie Paesano",
+            "occupied": false
+          },
+          {
+            "id": "ralphie",
+            "icon": "🎒",
+            "name": "Ralphie",
+            "occupied": false
+          },
+          {
+            "id": "rolando",
+            "icon": "🚗",
+            "name": "Rolando",
+            "occupied": false
+          },
+          {
+            "id": "hatchet",
+            "icon": "🪓",
+            "name": "Hatchet",
+            "occupied": false
+          },
+          {
+            "id": "wrigglers",
+            "icon": "🧢",
+            "name": "Frank Wrigglers",
+            "occupied": false
+          }
+        ]
+      },
+      {
+        "id": "succubus",
+        "title": "Súcubos / Íncubos",
+        "items": [
+          {
+            "id": "verosika",
+            "icon": "🎤",
+            "name": "Verosika Mayday",
+            "occupied": true
+          },
+          {
+            "id": "ace",
+            "icon": "♠️",
+            "name": "Ace",
+            "occupied": false
+          },
+          {
+            "id": "josh",
+            "icon": "🔥",
+            "name": "Josh",
+            "occupied": false
+          },
+          {
+            "id": "dia",
+            "icon": "🌞",
+            "name": "Día",
+            "occupied": false
+          },
+          {
+            "id": "kiki",
+            "icon": "💋",
+            "name": "Kiki",
+            "occupied": false
+          },
+          {
+            "id": "coco",
+            "icon": "🥥",
+            "name": "Coco",
+            "occupied": false
+          },
+          {
+            "id": "apple",
+            "icon": "🍎",
+            "name": "Apple",
+            "occupied": false
+          },
+          {
+            "id": "milky",
+            "icon": "🥛",
+            "name": "Milky",
+            "occupied": false
+          },
+          {
+            "id": "zuzu",
+            "icon": "💜",
+            "name": "Zuzu",
+            "occupied": false
+          },
+          {
+            "id": "kat",
+            "icon": "🐱",
+            "name": "Kat",
+            "occupied": false
+          },
+          {
+            "id": "coci",
+            "icon": "🍒",
+            "name": "Coci",
+            "occupied": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hazbin",
+    "title": "Hazbin Hotel",
+    "subgroups": [
+      {
+        "id": "realezaInf",
+        "title": "Realeza Infernal",
+        "items": [
+          {
+            "id": "lilith",
+            "icon": "🌹",
+            "name": "Lilith Magne",
+            "occupied": true
+          },
+          {
+            "id": "lucifer",
+            "icon": "🍎",
+            "name": "Lucifer Morningstar",
+            "occupied": true
+          },
+          {
+            "id": "charlie",
+            "icon": "🌈",
+            "name": "Charlie Morningstar",
+            "occupied": true
+          },
+          {
+            "id": "roo",
+            "icon": "🥀",
+            "name": "Roo",
+            "occupied": false
+          }
+        ]
+      },
+      {
+        "id": "eldritch",
+        "title": "Familia Von Eldritch",
+        "items": [
+          {
+            "id": "helsa",
+            "icon": "💎",
+            "name": "Helsa Von Eldritch",
+            "occupied": false
+          },
+          {
+            "id": "seviathan",
+            "icon": "🌊",
+            "name": "Seviathan Von Eldritch",
+            "occupied": false
+          },
+          {
+            "id": "frederick",
+            "icon": "📜",
+            "name": "Frederick Von Eldritch",
+            "occupied": false
+          },
+          {
+            "id": "bethesa",
+            "icon": "🌿",
+            "name": "Bethesa Von Eldritch",
+            "occupied": true
+          }
+        ]
+      },
+      {
+        "id": "overlords",
+        "title": "Overlords",
+        "items": [
+          {
+            "id": "alastor",
+            "icon": "📻",
+            "name": "Alastor",
+            "occupied": true
+          },
+          {
+            "id": "valentino",
+            "icon": "🚬",
+            "name": "Valentino",
+            "occupied": true
+          },
+          {
+            "id": "velvette",
+            "icon": "👗",
+            "name": "Velvette",
+            "occupied": true
+          },
+          {
+            "id": "vox",
+            "icon": "📺",
+            "name": "Vox",
+            "occupied": true
+          },
+          {
+            "id": "rosie",
+            "icon": "🥩",
+            "name": "Rosie",
+            "occupied": false
+          },
+          {
+            "id": "zestial",
+            "icon": "🕸️",
+            "name": "Zestial",
+            "occupied": false
+          },
+          {
+            "id": "carmilla",
+            "icon": "🗡️",
+            "name": "Carmilla Carmine",
+            "occupied": false
+          },
+          {
+            "id": "maestro",
+            "icon": "🎼",
+            "name": "Maestro",
+            "occupied": false
+          }
+        ]
+      },
+      {
+        "id": "pecadores",
+        "title": "Pecadores",
+        "items": [
+          {
+            "id": "angel",
+            "icon": "💊",
+            "name": "Angel Dust",
+            "occupied": false
+          },
+          {
+            "id": "arackniss",
+            "icon": "🕷️",
+            "name": "Arackniss",
+            "occupied": true
+          },
+          {
+            "id": "baxter",
+            "icon": "⚗️",
+            "name": "Baxter",
+            "occupied": true
+          },
+          {
+            "id": "cherri",
+            "icon": "💣",
+            "name": "Cherri Bomb",
+            "occupied": true
+          },
+          {
+            "id": "clara",
+            "icon": "🌹",
+            "name": "Clara Carmine",
+            "occupied": false
+          },
+          {
+            "id": "crymini",
+            "icon": "⛓️",
+            "name": "Crymini",
+            "occupied": false
+          },
+          {
+            "id": "husk",
+            "icon": "🎲",
+            "name": "Husk",
+            "occupied": true
+          },
+          {
+            "id": "katie",
+            "icon": "📡",
+            "name": "Katie Killjoy",
+            "occupied": false
+          },
+          {
+            "id": "mimzy",
+            "icon": "🎤",
+            "name": "Mimzy",
+            "occupied": false
+          },
+          {
+            "id": "niffty",
+            "icon": "🧹",
+            "name": "Niffty",
+            "occupied": false
+          },
+          {
+            "id": "odette",
+            "icon": "🌺",
+            "name": "Odette Carmine",
+            "occupied": true
+          },
+          {
+            "id": "pentius",
+            "icon": "🐍",
+            "name": "Sir Pentius",
+            "occupied": false
+          },
+          {
+            "id": "tom",
+            "icon": "🎖️",
+            "name": "Tom Trench",
+            "occupied": false
+          },
+          {
+            "id": "travis",
+            "icon": "🚕",
+            "name": "Travis",
+            "occupied": false
+          },
+          {
+            "id": "vaggie",
+            "icon": "❌",
+            "name": "Vaggie",
+            "occupied": true
+          },
+          {
+            "id": "villa",
+            "icon": "🐩",
+            "name": "Villa",
+            "occupied": false
+          },
+          {
+            "id": "summer",
+            "icon": "🌞",
+            "name": "Summer",
+            "occupied": false
+          },
+          {
+            "id": "henrion",
+            "icon": "🕸️",
+            "name": "Henrion",
+            "occupied": false
+          },
+          {
+            "id": "melissa",
+            "icon": "👗",
+            "name": "Melissa",
+            "occupied": false
+          },
+          {
+            "id": "prick",
+            "icon": "🌵",
+            "name": "Prick",
+            "occupied": false
+          }
+        ]
+      },
+      {
+        "id": "angeles",
+        "title": "Ángeles",
+        "items": [
+          {
+            "id": "portavoz",
+            "icon": "📜",
+            "name": "Portavoz de Dios",
+            "occupied": true
+          },
+          {
+            "id": "abel",
+            "icon": "🐑",
+            "name": "Abel",
+            "occupied": true
+          },
+          {
+            "id": "adan",
+            "icon": "🍃",
+            "name": "Adán",
+            "occupied": false
+          },
+          {
+            "id": "emily",
+            "icon": "🌟",
+            "name": "Emily",
+            "occupied": true
+          },
+          {
+            "id": "lute",
+            "icon": "🗡️",
+            "name": "Lute",
+            "occupied": true
+          },
+          {
+            "id": "molly",
+            "icon": "🎀",
+            "name": "Molly",
+            "occupied": true
+          },
+          {
+            "id": "pedro",
+            "icon": "🔑",
+            "name": "San Pedro",
+            "occupied": false
+          },
+          {
+            "id": "eva",
+            "icon": "🌸",
+            "name": "Eva",
+            "occupied": false
+          }
+        ]
+      },
+      {
+        "id": "serafines",
+        "title": "Serafines",
+        "items": [
+          {
+            "id": "sera",
+            "icon": "⚖️",
+            "name": "Sera",
+            "occupied": true
+          }
+        ]
+      },
+      {
+        "id": "arcangeles",
+        "title": "Arcángeles",
+        "items": [
+          {
+            "id": "uriel",
+            "icon": "🔥",
+            "name": "Uriel",
+            "occupied": true
+          },
+          {
+            "id": "gabriel",
+            "icon": "🍃",
+            "name": "Gabriel",
+            "occupied": true
+          },
+          {
+            "id": "raphael",
+            "icon": "📖",
+            "name": "Raphael",
+            "occupied": true
+          },
+          {
+            "id": "michael",
+            "icon": "🌼",
+            "name": "Michael",
+            "occupied": true
+          },
+          {
+            "id": "selafiel",
+            "icon": "🙏",
+            "name": "Selafiel",
+            "occupied": false
+          },
+          {
+            "id": "jegudiel",
+            "icon": "🛡️",
+            "name": "Jegudiel",
+            "occupied": false
+          },
+          {
+            "id": "baraquiel",
+            "icon": "⛈️",
+            "name": "Baraquiel",
+            "occupied": false
+          },
+          {
+            "id": "tzadkiel",
+            "icon": "⚖️",
+            "name": "Tzadkiel",
+            "occupied": false
+          },
+          {
+            "id": "zariel",
+            "icon": "🤍",
+            "name": "Zariel",
+            "occupied": false
+          },
+          {
+            "id": "metatron",
+            "icon": "✒️",
+            "name": "Metatrón",
+            "occupied": false
+          },
+          {
+            "id": "haniel",
+            "icon": "💖",
+            "name": "Haniel",
+            "occupied": false
+          },
+          {
+            "id": "zophiel",
+            "icon": "📖",
+            "name": "Zophiel",
+            "occupied": false
+          },
+          {
+            "id": "leroy",
+            "icon": "⚡",
+            "name": "Leroy",
+            "occupied": false
+          },
+          {
+            "id": "cassius",
+            "icon": "🍂",
+            "name": "Cassius",
+            "occupied": false
+          },
+          {
+            "id": "jophiel",
+            "icon": "🌼",
+            "name": "Jophiel",
+            "occupied": false
+          },
+          {
+            "id": "samael",
+            "icon": "🦂",
+            "name": "Samael",
+            "occupied": false
+          },
+          {
+            "id": "galim",
+            "icon": "💥",
+            "name": "Galim",
+            "occupied": false
+          },
+          {
+            "id": "joel",
+            "icon": "🎭",
+            "name": "Joel",
+            "occupied": false
+          },
+          {
+            "id": "leonardo",
+            "icon": "📜",
+            "name": "Leonardo",
+            "occupied": false
+          },
+          {
+            "id": "azrael",
+            "icon": "⚰️",
+            "name": "Azrael",
+            "occupied": false
+          }
+        ]
+      },
+      {
+        "id": "mascotas",
+        "title": "Mascotas",
+        "items": [
+          {
+            "id": "eggboiz",
+            "icon": "🥚",
+            "name": "Egg Boiz",
+            "occupied": false
+          },
+          {
+            "id": "fatnuggets",
+            "icon": "🐖",
+            "name": "Fat Nuggets",
+            "occupied": false
+          },
+          {
+            "id": "keekee",
+            "icon": "🐱",
+            "name": "KeeKee",
+            "occupied": false
+          },
+          {
+            "id": "razzle",
+            "icon": "🎪",
+            "name": "Razzle",
+            "occupied": false
+          },
+          {
+            "id": "dazzle",
+            "icon": "🎪",
+            "name": "Dazzle",
+            "occupied": false
+          },
+          {
+            "id": "tibu",
+            "icon": "💾",
+            "name": "Tibu. wav",
+            "occupied": false
+          }
+        ]
+      }
+    ]
+  }
+]

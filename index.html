@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personajes • Disponibles / Ocupados</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">✦</div>
+      <div class="brandText">
+        <div class="title">Personajes</div>
+        <div class="subtitle">Disponibles / Ocupados • ✅ = Ocupado • 🐧 al copiar</div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <div class="search">
+        <span class="icon" aria-hidden="true">🔎</span>
+        <input id="q" type="search" placeholder="Buscar (ej: Stolas, Millie, Vox...)" />
+        <button id="clearSearch" class="ghost" title="Limpiar">✕</button>
+      </div>
+
+      <div class="btnRow">
+        <button id="btnAdd" class="btn primary">+ Nuevo</button>
+        <button id="btnCopy" class="btn success">Copiar</button>
+        <button id="btnReset" class="btn ghost" title="Volver a la lista original">Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebarHeader">
+        <div class="sidebarTitle">Secciones</div>
+        <div class="sidebarHint">Toca para filtrar</div>
+      </div>
+
+      <nav id="sectionNav" class="sectionNav"></nav>
+
+      <div class="sidebarFooter">
+        <div class="pill">Tip: en móvil, usa ☰ arriba para ver secciones</div>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="contentTop">
+        <button id="btnToggleSidebar" class="btn ghost mobileOnly" aria-label="Abrir menú">☰</button>
+        <div class="stats" id="stats"></div>
+      </div>
+
+      <div id="cards" class="cards"></div>
+    </section>
+  </main>
+
+  <!-- Floating action bar (mobile) -->
+  <div class="fabBar mobileOnly">
+    <button id="mCopy" class="btn success fab">Copiar</button>
+    <button id="mAdd" class="btn primary fab">+ Nuevo</button>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modalBackdrop" id="modalBackdrop"></div>
+    <div class="modalCard" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modalHeader">
+        <div>
+          <div class="modalTitle" id="modalTitle">Nuevo personaje</div>
+          <div class="modalSub">Crea o edita un personaje. El estado “Ocupado” agrega 🐧 al copiar.</div>
+        </div>
+        <button id="modalClose" class="ghost" title="Cerrar">✕</button>
+      </div>
+
+      <form id="form" class="form">
+        <div class="grid">
+          <label class="field">
+            <span>Nombre</span>
+            <input id="fName" required maxlength="60" placeholder="Ej: Stolas" />
+          </label>
+
+          <label class="field">
+            <span>Icono (emoji)</span>
+            <input id="fIcon" required maxlength="4" placeholder="Ej: 📖" />
+          </label>
+
+          <label class="field">
+            <span>Sección (bloque)</span>
+            <select id="fBlock"></select>
+          </label>
+
+          <label class="field">
+            <span>Subgrupo</span>
+            <select id="fSubgroup"></select>
+          </label>
+
+          <label class="field inline">
+            <input id="fOccupied" type="checkbox" />
+            <span>Ocupado (✅)</span>
+          </label>
+        </div>
+
+        <div class="formActions">
+          <button type="button" id="btnDelete" class="btn danger">Eliminar</button>
+          <div class="spacer"></div>
+          <button type="button" id="btnCancel" class="btn ghost">Cancelar</button>
+          <button type="submit" class="btn primary" id="btnSave">Guardar</button>
+        </div>
+
+        <input type="hidden" id="fId" />
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

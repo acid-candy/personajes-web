@@ -21,12 +21,12 @@ exports.handler = async (event) => {
     const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PATH}`;
 
     // CORS básico para que funcione desde el navegador
-    const corsHeaders = {
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Headers": "Content-Type",
-      "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
-      "Content-Type": "application/json",
-    };
+   const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "*",
+  "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+  "Content-Type": "application/json",
+};
 
     if (event.httpMethod === "OPTIONS") {
       return { statusCode: 200, headers: corsHeaders, body: JSON.stringify({ ok: true }) };

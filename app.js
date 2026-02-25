@@ -2,7 +2,7 @@
 (() => {
   // Usa /api/characters si tienes el redirect en netlify.toml
   // Si no, deja "/.netlify/functions/characters"
-  const API_URL = "/api/characters";
+  const API_URL = "/.netlify/functions/characters";
 
   /** @type {ReturnType<typeof structuredClone>} */
   let state = [];
@@ -646,4 +646,5 @@
       .replaceAll('"',"&quot;")
       .replaceAll("'","&#039;");
   }
+
 })();

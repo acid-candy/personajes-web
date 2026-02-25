@@ -11,7 +11,7 @@
             "id": "beelzebub",
             "icon": "🐝",
             "name": "Beelzebub",
-            "occupied": false
+            "occupied": true
           },
           {
             "id": "belphegor",

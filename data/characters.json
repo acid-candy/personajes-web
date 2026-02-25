@@ -29,7 +29,7 @@
             "id": "satan",
             "icon": "🔥",
             "name": "Satán",
-            "occupied": true
+            "occupied": false
           },
           {
             "id": "mammon",
